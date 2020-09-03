@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ExplosionApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+
     public class MumblingController : ControllerBase
     {
+        [HttpGet("{mumbler}")]
         public string Mumbler(string mumbling)
         {
             var answer = "";

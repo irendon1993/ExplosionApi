@@ -1,0 +1,22 @@
+PROBLEM
+Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value. 
+
+EXAMPLE
+Digits.Explode("312") = "333122"
+Digits.Explode("102269") = "12222666666999999999"
+
+DATA
+Given string
+returned string
+
+Algorithm 
+Take a string
+Use a foreach loop  to run through each character of the string 
+Splice string into individual numbers
+Create new variable to hold value of integer 
+Repeat each integer based on the value of the integer
+Add up string of integers 
+Create a new variable to hold new string
+Return new string
+
+Profit
